@@ -4,6 +4,8 @@
 
 This will go over how to take an image of a Raspberry Pi, shrink it and reimage it to another Pi. Exactly the same as the original. 
 
+The image can be downloaded from the SharePoint within the 'Realeases' section.
+
 ---
 
 
@@ -56,7 +58,6 @@ This will go over how to take an image of a Raspberry Pi, shrink it and reimage 
 3.	Put the SD card into the RaspberryPi and boot it up.
     -	On first boot, the filesystem will expand to the original size.
     -   The size of new SD card should exceed the original SD card (32GB SD card used in this image)
-    -   #### Be sure to keep the image under 2GB if you would like to use the Github releases.
 
 4.	All of the settings changes and apps that were installed are all available as last seen on the original image.
 

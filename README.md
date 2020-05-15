@@ -58,4 +58,15 @@ This will go over how to take an image of a Raspberry Pi, shrink it and reimage 
 
 5.	That’s it!
 
+---
+
+# Services Enabled 
+
+1. SSH 
+2. VNC
+
+# Applications installed
+
+1. MQTTT
+2. iPython
 

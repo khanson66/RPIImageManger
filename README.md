@@ -6,7 +6,9 @@ This will go over how to take an image of a Raspberry Pi, shrink it and reimage 
 
 
 
-Prerequisites 
+Prerequisites -
+
+
 1.	Linux system (Linux subsystem on Windows 10 works fine)
     -	Will need to have gzip installed
     -	This is for the shrinking script. It is written in bash.
@@ -29,6 +31,7 @@ Prerequisites
 
 Imaging - 
 
+
 1.	Once you have completed the setup of the RaspberryPi OS, take the SD card out and use Win32DiskImager to read the card to a file.
 
 2.	Once the image file is saved on the computer, either transfer the file to the Linux computer or open up the Linux subsystem and run the following command on the .img file (this will duplicate the file during the process, make sure there is enough space on the computer to accommodate)
@@ -42,6 +45,7 @@ Imaging -
 
 
 Decompressing and unshrinking the Image - 
+
 
 1.	To decompress the file, open up the file in 7zip and extract the .img.
 

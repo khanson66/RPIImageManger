@@ -36,8 +36,9 @@ This will go over how to take an image of a Raspberry Pi, shrink it and reimage 
 1.	Once you have completed the setup of the RaspberryPi OS, take the SD card out and use Win32DiskImager to read the card to a file.
 
 2.	Once the image file is saved on the computer, either transfer the file to the Linux computer or open up the Linux subsystem and run the following command on the .img file (this will duplicate the file during the process, make sure there is enough space on the computer to accommodate)
-    -	pishrink.sh -vpz /path/to/old-image.img /path/to/new-image.img
-    -	This command will shrink the ‘old-image.img’ into the path of the ‘new-file.img’. The switches that are set also apply a gzip compression on the image.
+    -	pishrink.sh -vpz /path/to/image.img
+    -	This command will shrink the ‘image.img’ and the switches that are set also apply a gzip compression on the image.
+    -   #### If you specify a
 
 3.	The image file will have a .gz extension added to it automatically.
 

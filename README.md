@@ -8,7 +8,7 @@ This will go over how to take an image of a Raspberry Pi, shrink it and reimage 
 
 Prerequisites -
 
--	Linux system (Linux subsystem on Windows 10 works fine)
+*	Linux system (Linux subsystem on Windows 10 works fine)
   *	Will need to have gzip installed
   *	This is for the shrinking script. It is written in bash.
   *	MacOS should also work.

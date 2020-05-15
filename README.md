@@ -57,7 +57,7 @@ The image can be downloaded from the SharePoint within the 'Realeases' section.
 
 3.	Put the SD card into the RaspberryPi and boot it up.
     -	On first boot, the filesystem will expand to the original size.
-    -   The size of new SD card should exceed the original SD card (32GB SD card used in this image)
+    -   The size of new SD card should exceed the original image size
 
 4.	All of the settings changes and apps that were installed are all available as last seen on the original image.
 

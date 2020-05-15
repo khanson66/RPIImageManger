@@ -6,7 +6,7 @@ This will go over how to take an image of a Raspberry Pi, shrink it and reimage 
 
 
 
-Prerequisites -
+Prerequisites 
 
 1.	Linux system (Linux subsystem on Windows 10 works fine)
   *	Will need to have gzip installed

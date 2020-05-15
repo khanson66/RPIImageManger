@@ -26,7 +26,7 @@ This will go over how to take an image of a Raspberry Pi, shrink it and reimage 
 
 5.	7zip
         -   https://www.7-zip.org/download.html
-        -   To open the compressed image
+        -   To open the compressed image.
 
 
 
@@ -38,7 +38,7 @@ This will go over how to take an image of a Raspberry Pi, shrink it and reimage 
 2.	Once the image file is saved on the computer, either transfer the file to the Linux computer or open up the Linux subsystem and run the following command on the .img file (this will duplicate the file during the process, make sure there is enough space on the computer to accommodate)
     -	pishrink.sh -vpz /path/to/image.img
     -	This command will shrink the ‘image.img’ and the switches that are set also apply a gzip compression on the image.
-    -   #### If you specify a
+    -   #### The 'v' switch can be removed to make the output a bit quieter.
 
 3.	The image file will have a .gz extension added to it automatically.
 
@@ -51,12 +51,12 @@ This will go over how to take an image of a Raspberry Pi, shrink it and reimage 
 
 1.	To decompress the file, open up the file in 7zip and extract the .img.
 
-2.	With the decompressed .img file, then open Win32DiskImager and write the file to the SD card
+2.	With the decompressed .img file, then open Win32DiskImager and write the file to the SD card.
 
-3.	Put the SD card into the RaspberryPi and boot it up
-    -	On first boot, the filesystem will expand to the original size 
+3.	Put the SD card into the RaspberryPi and boot it up.
+    -	On first boot, the filesystem will expand to the original size.
     -   The size of new SD card should exceed the original SD card (32GB SD card used in this image)
-    -   #### Be sure to keep the image under 2GB if you would like to use the Github releases
+    -   #### Be sure to keep the image under 2GB if you would like to use the Github releases.
 
 4.	All of the settings changes and apps that were installed are all available as last seen on the original image.
 

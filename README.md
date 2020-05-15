@@ -1,5 +1,7 @@
 # RPIImageManger
 
+This will go over how to take an image of a Raspberry Pi, shrink it and reimage it to another Pi. Exactly the same as the original. 
+
 Prerequisites -
 
 A.	Linux system (Linux subsystem on Windows 10 works fine)
